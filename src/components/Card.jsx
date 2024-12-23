@@ -5,7 +5,7 @@ const Card = ({data}) => {
     const readMore =(url)=> {
 window.open(url)
     }
-  return (
+  return (  
     <div className='cardContainer'>
         {data.map((curItem, index)=>{
             if(!curItem.urlToImage){
